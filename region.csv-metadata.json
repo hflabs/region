@@ -1,0 +1,63 @@
+{
+    "@context": "http://www.w3.org/ns/csvw",
+    "dc:title": "Регионы России",
+    "dc:description": "Справочник информации о регионах России.",
+    "dc:references": "https://dadata.ru/",
+    "dc:creator": "DaData.ru",
+    "dc:issued": "2019-11-25",
+    "dc:language": "ru",
+    "dc:license": "CC BY-SA 4.0",
+    "url": "region.csv",
+    "tableSchema": {
+        "columns": [
+            {
+                "titles": "name",
+                "dc:description": "Название"
+            },
+            {
+                "titles": "type",
+                "dc:description": "Тип"
+            },
+            {
+                "titles": "name_with_type",
+                "dc:description": "Тип и название одной строкой"
+            },
+            {
+                "titles": "federal_district",
+                "dc:description": "Федеральный округ"
+            },
+            {
+                "titles": "kladr_id",
+                "dc:description": "КЛАДР-код"
+            },
+            {
+                "titles": "fias_id",
+                "dc:description": "ФИАС-код"
+            },
+            {
+                "titles": "okato",
+                "dc:description": "Код ОКАТО"
+            },
+            {
+                "titles": "oktmo",
+                "dc:description": "Код ОКТМО"
+            },
+            {
+                "titles": "tax_office",
+                "dc:description": "Код ИФНС"
+            },
+            {
+                "titles": "postal_code",
+                "dc:description": "Почтовый индекс"
+            },
+            {
+                "titles": "iso_code",
+                "dc:description": "ISO-код"
+            },
+            {
+                "titles": "timezone",
+                "dc:description": "Часовой пояс"
+            }
+        ]
+    }
+}
