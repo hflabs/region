@@ -11,9 +11,15 @@
 - код ИФНС;
 - почтовый индекс;
 - ISO-код;
-- часовой пояс.
+- часовой пояс;
+- код региона по GeoNames;
+- идентификатор региона по GeoNames;
+- название региона по GeoNames.
 
-Данные, которых нет в ФИАС, получены из сервиса [DaData.ru](https://dadata.ru/)
+Источники данных:
+- [ФИАС](https://fias.nalog.ru/)
+- [GeoNames](https://www.geonames.org/)
+- [DaData.ru](https://dadata.ru/)
 
 <p>Лицензия: <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a></p>
 

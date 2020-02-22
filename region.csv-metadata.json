@@ -4,7 +4,7 @@
     "dc:description": "Справочник информации о регионах России.",
     "dc:references": "https://dadata.ru/",
     "dc:creator": "DaData.ru",
-    "dc:issued": "2019-11-25",
+    "dc:issued": "2020-02-22",
     "dc:language": "ru",
     "dc:license": "CC BY-SA 4.0",
     "url": "region.csv",
@@ -57,6 +57,18 @@
             {
                 "titles": "timezone",
                 "dc:description": "Часовой пояс"
+            },
+            {
+                "titles": "geoname_code",
+                "dc:description": "Код региона по справочнику GeoNames"
+            },
+            {
+                "titles": "geoname_id",
+                "dc:description": "Идентификатор региона по справочнику GeoNames"
+            },
+            {
+                "titles": "geoname_name",
+                "dc:description": "Англоязычное название региона по справочнику GeoNames"
             }
         ]
     }
